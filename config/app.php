@@ -209,6 +209,8 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
 
+        'AlexaRoute' => \Develpr\AlexaApp\Facades\AlexaRouter::class,
+        'Alexa' => \Develpr\AlexaApp\Facades\Alexa::class
     ],
 
 ];

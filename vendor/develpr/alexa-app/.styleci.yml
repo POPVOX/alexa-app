@@ -1,0 +1,28 @@
+preset: recommended
+
+linting: true
+
+enabled:
+  - strict
+  - unalign_double_arrow
+
+disabled:
+  - align_double_arrow
+  - phpdoc_summary
+
+finder:
+  exclude:
+    - "tests"
+  name:
+    - "*.php"
+  contains:
+    - "Develpr"
+  not-contains:
+    - "config"
+  path:
+    - "src"
+  not-path:
+    - "libraries"
+  depth:
+    - "< 3"
+
